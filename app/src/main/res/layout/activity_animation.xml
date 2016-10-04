@@ -21,26 +21,29 @@
         android:contentDescription="@string/lights_image_view_text"
         android:background="@drawable/lights1" />
 
-    <ToggleButton
-        android:text="ToggleButton"
+    <Button
+        android:text="Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/frameAnimButton" />
+        android:id="@+id/frameAnimButton"
+        android:onClick="toggleFrameAnim" />
 
-    <ToggleButton
-        android:text="ToggleButton"
+    <Button
+        android:text="Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rotateAnimButton" />
+        android:id="@+id/rotateAnimButton"
+        android:onClick="toggleRotateAnim" />
 
-    <ToggleButton
-        android:text="ToggleButton"
+    <Button
+        android:text="Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/shakeAnimButton" />
+        android:id="@+id/shakeAnimButton"
+        android:onClick="toggleShakeAnim" />
 
-    <ToggleButton
-        android:text="ToggleButton"
+    <Button
+        android:text="Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/flipAnimButton" />
